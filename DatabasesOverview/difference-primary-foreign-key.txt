@@ -1,0 +1,15 @@
+	Difference between Primary and Foreign Key
+	
+- Primary key
+		A table typically has a column or combination of columns that contain values that uniquely
+	identify each row in the table. This column, or columns, is called the primary key (PK) of the
+	table and enforces the entity integrity of the table. Because primary key constraints 
+	guarantee unique data, they are frequently defined on an identity column.
+
+- Foreign key
+		A foreign key (FK) is a column or combination of columns that is used to establish and 
+	enforce a link between the data in two tables to control the data that can be stored in 
+	the foreign key table. In a foreign key reference, a link is created between two tables
+	when the column or columns that hold the primary key value for one table are referenced
+	by the column or columns in another table. This column becomes a foreign key in the 
+	second table.

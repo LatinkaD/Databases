@@ -1,0 +1,17 @@
+	SQL 
+	
+- SQL  is a special-purpose programming language designed for managing data held in a relational 
+database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
+- Originally based upon relational algebra and tuple relational calculus, SQL consists of a 
+data definition language (DDL) and a data manipulation language (DML).
+- The scope of SQL includes data insert, query, update and delete, schema creation and modification, and data access control.
+- SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database. 
+- The following is an example of a SELECT query that returns a list of expensive books. The query retrieves
+all rows from the Book table in which the price column contains a value greater than 100.00.
+The result is sorted in ascending order by title. The asterisk (*) in the select list indicates that all columns 
+of the Book table should be included in the result set.
+
+SELECT *
+ FROM  Book
+ WHERE price > 100.00
+ ORDER BY title;

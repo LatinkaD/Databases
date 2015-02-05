@@ -1,0 +1,16 @@
+	RDBMS Main Functions
+	
+- A relational database is a persistent storage mechanism that enables you to both store data and optionally 
+ implement functionality.
+- DBMSs are used to store the information required by applications built using procedural technologies 
+ such as COBOL or FORTRAN, object technologies such as Java and C#, and component-based technologies such 
+ as Visual Basic.
+- The most common use of RDBMSs is to implement simple CRUD – Create, Read, Update, and Delete – functionality. 
+ For example an application could create a new order and insert it into your database. It could read an existing
+ order, work with the data, and then update the database with the new information. It could also choose to delete 
+ an existing order, perhaps because the customer has cancelled it.
+- Different users may have different CRUD cycles based upon the requirements of the system. A customer, 
+ for instance, might have the ability to create an account, retrieve it upon return to a website, update 
+ billing information, or delete it if necessary. An operations manager, by contrast, might create product 
+ records, call them up as needed, modify packaging or raw materials details or delete it if the product
+ was discontinued.

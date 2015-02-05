@@ -1,0 +1,7 @@
+	Table
+	
+- A table is a collection of related data held in a structured format within a database. It consists of fields (columns), and rows.
+- In relational databases and flat file databases, a table is a set of data elements (values) using a model of vertical columns 
+(which are identified by their name) and horizontal rows, the cell being the unit where a row and column intersect.
+- Table is another term for relation; although there is the difference in that a table is usually a multiset 
+(bag) of rows where a relation is a set and does not allow duplicates.

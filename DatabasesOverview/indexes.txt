@@ -1,0 +1,15 @@
+	Indexes
+	
+- Index is a physical structure contains pointers to the data.
+- Advantages
+	- Increased performance: There is no need to access a row
+	in the database from an index structure, so you can reduce the total number of I/O operations needed to retrieve data.
+	- Reduced table space: Because you do not need to link to a row in a table, there is no need to store the ROWID 
+	in the index. The overall space required for the table is reduced.
+	- Presorted data: The data in the leaf nodes is already sorted by the value of the primary key.
+	
+- Disadvantages
+	- You must have a primary key on the table with a unique value.
+	- You cannot have any other indexes on the data.
+	- You cannot partition an index-organized table.
+	- An index-organized table cannot be a part of a cluster.

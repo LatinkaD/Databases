@@ -1,0 +1,20 @@
+	Transactions
+	
+- A transaction has four key properties that are abbreviated ACID. ACID is an acronym for for Atomic Consistent Isolated Durability.
+Atomic means that all the work in the transaction is treated as a single unit. Either it is all performed or none of it is. 
+Consistent means that a completed transaction leaves the database in a consistent internal state. 
+Isolations means that the transaction sees the database in a consistent state. This transaction operates on a 
+consistent view of the data. If two transactions try to update the same table, one will go first and then the other
+will follow. Durability means that the results of the transaction are permanently stored in the system.
+
+UPDATE 	authors
+SET	au_fname = 'John'
+WHERE	au_id = '172-32-1176'
+
+- BEGIN
+ TRAN UPDATE authors
+ SET	au_fname = 'John' 
+ WHERE	au_id = '172-32-1176' 
+ UPDATE authors SET	au_fname = 'Marg'
+ WHERE	au_id = '213-46-8915' 
+ COMMIT TRAN

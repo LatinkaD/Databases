@@ -1,0 +1,22 @@
+	Database Constraints
+
+- Integrity Constraints
+	Integrity constraints are used to ensure accuracy and consistency of data in a relational database. 
+	
+- Primary Key Constraints
+	To ensure that the primary key of a table is unique. Primary key is the term used to identify one or more columns 
+in a table that make a row of data unique. Although the primary key typically consists of one column in a
+table, more than one column can comprise the primary key.
+
+- Unique Key Constraints
+	To ensure that a given column is unique. There is not a lot of difference between the two, except that the primary 
+key is used to provide an order to data in a table and, in the same respect, join related tables.
+
+- Foreign Key Constraints
+	To ensure that two keys share a primary key to foreign key relationship. . A foreign key constraint is the main
+mechanism used to enforce referential integrity between tables in a relational database. A column defined as 
+a foreign key is used to reference a column defined as a primary key in another table.
+
+- Check Constraints
+	Check (CHK) constraints can be utilized to check the validity of data entered into particular table columns. 
+Check constraints are used to provide back-end database edits, although edits are commonly found in the front-end application as well.
