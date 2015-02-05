@@ -1,0 +1,9 @@
+select * from Students;
+
+select Name, Age
+from Students;
+
+select s.Name
+from Students s
+where s.Age = 21;
+
