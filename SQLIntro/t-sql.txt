@@ -1,0 +1,13 @@
+	T-SQL
+- Transact-SQL is central to using Microsoft SQL Server. All applications that communicate
+with an instance of SQL Server do so by sending Transact-SQL statements to the server, 
+regardless of the user interface of the application.
+- Transact-SQL provides the following statements to declare and set local variables: DECLARE,
+SET and SELECT.
+- Keywords for flow control in Transact-SQL include BEGIN and END, BREAK, CONTINUE, 
+GOTO, IF and ELSE, RETURN, WAITFOR, and WHILE.
+- In Transact-SQL, both the DELETE and UPDATE statements allow a FROM clause to be added, 
+which allows joins to be included.
+- Beginning with SQL Server 2005, Microsoft introduced additional TRY CATCH logic to support 
+exception type behaviour. This behaviour enables developers to simplify their code and leave 
+out @@ERROR checking after each SQL execution statement.
