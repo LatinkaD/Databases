@@ -1,0 +1,40 @@
+use chat
+
+var bulk = db.chat.initializeUnorderedBulkOp();
+bulk.insert({
+	text: "Hi everyone!",
+	date: new Date(),
+	isRead: true,
+	user: {
+		username: "LatinkaD",
+		fullName: "Latinka Demirova",
+		website: "lati.com"
+	});
+bulk.insert({
+	text: "What do you think of MongoDB?",
+	date: new Date(),
+	isRead: true,
+	user: {
+		username: "MalinaD",
+		fullName: "Malina Demirova",
+		website: "malina.com"
+	});
+bulk.insert({
+	text: "It's veery cool..",
+	date: new Date(),
+	isRead: false,
+	user: {
+		username: "GeorgeK",
+		fullName: "Georgi Krystev",
+		website: "gogo.com"
+	});
+bulk.execute();
+
+use chat
+db.createUser({
+	"user": "LatinkaD",
+	"pwd": "123",
+	"roles": ["readWrite", "dbAdmin"]
+});
+db.auth("LatinkaD", "123");
+
